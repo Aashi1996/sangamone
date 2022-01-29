@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+    <button id="btn.id" onclick="document.getElementById('myImage').src='bulbon.jpg', setTimeout(myFunction, 60000), disabled=true">Turn on the light</button>
+
+    <img id="myImage" src="bulboff.jfif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='bulboff.jfif'">Turn off the light</button>
+
+    <script>
+    function myFunction() {
+        document.getElementById('myImage').src='bulboff.jfif';
+        document.getElementById('btn.id').disabled = false;
+    }
+    </script>
+
+</body>
+</html>
