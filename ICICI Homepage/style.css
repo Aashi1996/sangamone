@@ -7,14 +7,14 @@
 }
 
 #p1 {
-	background-image: url("thought bubble.JFIF");
+	background-image: url("thought bubble.jfif");
 	background-repeat: no-repeat;
 	margin-left: 12%;
 	background-size: 700px 250px;
 }
 
 #p2 {
-	background-image: url("person.PNG");
+	background-image: url("person.png");
 	background-repeat: no-repeat;
 	background-size: 1200px 500px;
 	padding-left: 0;
