@@ -1,0 +1,88 @@
+.bar {
+	background: linear-gradient(to bottom, #FFA12C, #FF872C, #FE612C, #FD3A2D, #F11D2D);
+	color: white;
+	border: transparent;
+	margin: 0px;
+	padding: 20px;
+}
+
+#p1 {
+	background-image: url("thought bubble.JFIF");
+	background-repeat: no-repeat;
+	margin-left: 12%;
+	background-size: 700px 250px;
+}
+
+#p2 {
+	background-image: url("person.PNG");
+	background-repeat: no-repeat;
+	background-size: 1200px 500px;
+	padding-left: 0;
+
+}
+
+.button {
+	width: 300px;
+	background-color: #FE612C;
+    border: none;
+    color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 40px;
+	margin-top: 0;
+	margin-left: 38%;
+}
+
+.icons {
+	margin-left: 23%;
+}
+
+.inline {
+    display: inline-table;
+    text-align: center;
+}
+
+.inline p {
+	font-family: verdana;
+	font-size: 15px;
+	color: darkslategray;
+}
+
+.bar1 {
+	background: #112763;
+	color: white;
+	border: transparent;
+	margin: 0px;
+	padding: 20px;
+	height: 50px;
+}
+
+.bar2 {
+	background: #D3D3D3;
+	color: white;
+	border: transparent;
+	margin: 0px;
+	padding: 20px;
+	height: 20px;
+}
+
+#sm1 img {
+	width: 15px;
+	height: 20px;
+	float: left;
+	vertical-align: center;
+	margin-left: 30px;
+}
+
+#sm2 img {
+	width: 15px;
+	height: 20px;
+	float: right;
+	vertical-align: center;
+	margin-right: 30px;
+}
