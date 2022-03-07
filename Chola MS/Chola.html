@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<img id="logo" src="logo.jpeg">
+	<br><br>
+	<h2 style="margin-top: 0.7em;">Now get</h2>
+	<h1>UP TO 85% DISCOUNT</h1>
+	<h2>on private car insurance*</h2>
+
+	<div class="arc">
+		<div class="icon1">
+			<img id="img1" src="icon1.png">
+			<br><hr>
+			<p>8500+ Cashless Garages for quick & cashless claim settlement</p>
+		</div>
+
+		<div class="icon2">
+			<img id="img2" src="icon2.png">
+			<br><hr>
+			<p>24x7 toll free assistance</p>
+		</div>
+
+
+		<div class="icon3">
+			<img id="img3" src="icon3.png">
+			<br><hr>
+			<p>Free pick-up<br>and drop at<br>select garages</p>
+		</div>
+
+		<div class="icon4">
+			<img id="img4" src="icon4.png">
+			<br><hr>
+			<p>Unlimited<br>claims until IDV<br>is exhausted</p>
+		</div>
+
+		<div class="icon5">
+			<img id="img5" src="icon5.png">
+			<br><hr>
+			<p>Live Video Streaming [LVS] for claim intimation</p>
+		</div>	
+	</div>
+
+	<canvas id="Canvas" width="1000px" height="400px" style="border: none; margin-left: 100px; margin-top: -17em;"></canvas>
+
+	<script>
+	var canvas = document.getElementById("Canvas");
+	var ctx = canvas.getContext('2d');
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(110, 195, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.moveTo(110, 195);
+	ctx.lineTo(110, 350);
+	ctx.lineTo(220, 390);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(220, 390, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(310, 100, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.moveTo(310, 100);
+	ctx.lineTo(310, 135);
+	ctx.lineTo(270, 180);
+	ctx.lineTo(270, 272);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(270, 272, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(510, 50, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.moveTo(510, 50);
+	ctx.lineTo(510, 141);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(510, 142, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(700, 100, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.moveTo(700, 100);
+	ctx.lineTo(700, 135);
+	ctx.lineTo(750, 180);
+	ctx.lineTo(750, 244);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(750, 244, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(900, 170, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	ctx.beginPath();
+	ctx.moveTo(900, 170);
+	ctx.lineTo(900, 350);
+	ctx.lineTo(820, 388);
+	ctx.stroke();
+
+	ctx.beginPath();
+	ctx.fillStyle = "black";
+	ctx.arc(820, 388, 5, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+
+	</script>
+
+	<div class="semicircle">
+		<img id="car" src="car.jpg" style="width: 400px; height: 200px; margin-top: 5.9em; margin-left: 14%;">
+		<hr id="hr1">
+	</div>
+
+	<br><br><br><br><br><br>
+	<button type="button">BUY NOW</button>
+
+	<p style="text-align: center; margin-top: 1em; font-family: verdana;">*Discount on Own damage premium - conditions apply.</p>
+
+
+
+</body>
+</html>
